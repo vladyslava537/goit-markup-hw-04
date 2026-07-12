@@ -21,6 +21,11 @@
     color: #F4F4FD;
 }
 
+.footer-text{
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
 .container-cont{
     display: flex;
     flex-direction: column;
@@ -42,3 +47,18 @@
     gap: 16px;
 }
 
+.footer-icon{
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-icon:hover,
+.footer-icon:focus{
+    background-color: #31D0AA;
+}
